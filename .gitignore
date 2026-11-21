@@ -1,0 +1,13 @@
+# Eclipse / STS metadata
+.metadata/
+
+# Compiled Java files
+*.class
+bin/
+
+# Build output
+target/
+
+# OS files
+.DS_Store
+Thumbs.db
