@@ -2,8 +2,11 @@ package com.kodewala.control.flow.practice10;
 
 public class BankApplication {
 
-	public void performOperation(int option) {
+	public void performOperation(int option) 
+	{
+		
 		switch (option) {
+		
 		case 1:
 			System.out.println("Check Balance");
 			break;

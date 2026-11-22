@@ -1,7 +1,5 @@
 package com.kodewala.control.flow.practice16;
 
-import java.util.Scanner;
-
 public class Driver3 {
 
 	public static void main(String[] args) {
