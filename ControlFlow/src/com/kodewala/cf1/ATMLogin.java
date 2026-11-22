@@ -31,6 +31,7 @@ public class ATMLogin {
 				System.err.println("Incorrect Pin!!!");
 			}
 		}
+		//requirement 3
 		if(attempt == 3)
 			System.err.println("Account Blocked");
 		sc.close();
