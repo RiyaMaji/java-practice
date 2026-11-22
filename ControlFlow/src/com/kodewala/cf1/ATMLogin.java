@@ -3,15 +3,27 @@ package com.kodewala.cf1;
 import java.util.Scanner;
 
 public class ATMLogin {
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
+		//Initialize choice with some value 
 		int correctPin = 1234;
+		
+		//intialize attempt
 		int attempt = 0;
+		
+		//input userchoice
 		Scanner sc = new Scanner(System.in);
+		
+		//condition for loop--->requirement 1
 		while(attempt!=3) {
+			
 			System.out.println("Enter Pin : ");
 			int userInput = sc.nextInt();
+			
 			attempt++;
-			if(userInput == correctPin) {
+			//requirement 2
+			if(userInput == correctPin) 
+			{
 				System.out.println("Login Successful!!!");
 				attempt+=3;
 				break;
