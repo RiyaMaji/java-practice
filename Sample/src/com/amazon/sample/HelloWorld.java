@@ -9,6 +9,15 @@ public class HelloWorld {
 		System.out.println("Amount : " + amount);
 		HelloWorld.doSomething();
 		Scanner sc = new Scanner(System.in);
+		sc.close();
+		for(int i=0;i<=7;i++) {
+			if(i==4) {
+				continue;
+				// we cannont put break with continue;
+			}
+			System.out.println(i);
+			
+		}
 	}
 
 	public static void doSomething() {
